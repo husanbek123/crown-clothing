@@ -1,47 +1,12 @@
 import React from "react";
+import Items_menu from "../../components/items-menu/items-menu.jsx";
 import './homepage.scss'
 
 const HomePage = () => {
-    
     return (
         <div className="homepage">
-            <div className="items-menu">
-                <div className="menu-item">
-                    <div className="content">
-                        <h1 className="title">HATS</h1>
-                        <span className="subtitle">SHOP NOW</span>
-                    </div>
-                </div>
-                <div className="menu-item">
-                    <div className="content">
-                        <h1 className="title">JACKETS</h1>
-                        <span className="subtitle">SHOP NOW</span>
-                    </div>
-                </div>
-                <div className="menu-item">
-                    <div className="content">
-                        <h1 className="title">SNEAKERS</h1>
-                        <span className="subtitle">SHOP NOW</span>
-                    </div>
-                </div>
-                <div className="menu-item">
-                    <div className="content">
-                        <h1 className="title">WOMEN</h1>
-                        <span className="subtitle">SHOP NOW</span>
-                    </div>
-                </div>
-                <div className="menu-item">
-                    <div className="content">
-                        <h1 className="title">MEN</h1>
-                        <span className="subtitle">SHOP NOW</span>
-                    </div>
-                </div>
-            </div>
+            <Items_menu />
         </div>
-        
     ) 
 }
-
-
-
 export default HomePage
